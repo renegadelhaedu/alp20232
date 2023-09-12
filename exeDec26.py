@@ -8,8 +8,8 @@ if(tipo == 'a'):
         total = (1.9 * litros) * 0.95
 else:
     if (litros <= 20):
-        total = (1.9 * litros) * 0.96
+        total = (2.5 * litros) * 0.96
     else:
-        total = (1.9 * litros) * 0.94
+        total = (2.5 * litros) * 0.94
 
 print(f'o valor final que sera pago e {total}')
