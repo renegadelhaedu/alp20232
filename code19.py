@@ -6,7 +6,7 @@
 total_impArrec = 0
 total_salLiq = 0
 
-for cont in range(1, 13):
+for cont in range(1, 3):
     salario = float(input('digite seu salario bruto'))
     if(salario <= 2400):
         total_salLiq = total_salLiq + salario
