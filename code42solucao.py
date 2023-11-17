@@ -1,4 +1,4 @@
-alunos = {'rene': 13, 'jack': 7, 'maria': 19, 'lucas': 10}
+alunos = {'rene': 12, 'jack': 7, 'maria': 19, 'lucas': 10}
 
 lista_alunos = list(alunos.items())
 print(lista_alunos)
