@@ -9,7 +9,7 @@ f.close()
 
 def salvarArquivo(texto, login):
 
-    f = open(f'produtos_{login}.txt', 'a')
+    f = open(f'produtos_{login}.txt', 'w')
     f.write(texto)
     f.close()
 

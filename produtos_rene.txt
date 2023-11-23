@@ -2,7 +2,3 @@ nome do produto: lapis
 valor do produto: 14
 qtde do produto: 5
 
-nome do produto: cpu
-valor do produto: 2000
-qtde do produto: 2
-
