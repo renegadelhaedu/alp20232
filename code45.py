@@ -1,7 +1,7 @@
 import openai
 
 def consultarchatgpt(produto):
-    openai.api_key = 'cole sua chave aqui'
+    openai.api_key = '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'
 
     # Set the model and prompt
     model_engine = "text-davinci-003"
@@ -22,3 +22,6 @@ def consultarchatgpt(produto):
 
     # Print the response
     return completion.choices[0].text
+
+
+print(consultarchatgpt('aspirador de po'))
